@@ -337,9 +337,11 @@
         });
       });
     </script>
+    <link rel="preload" href="css/all.css" as="style"/>
+    <link rel="preload" href="https://unpkg.com/swiper/swiper-bundle.min.css" as="style"/>
     <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       const testimony_slider = new Swiper(".testimony-slider", {
         slidesPerView: 1,
